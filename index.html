@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/timer.png" type="image/x-icon">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Countdown Timer</title>
+</head>
+<body>
+    <div class="timer text-center">
+        <h1 class="fw-bold mt-5">Countdown Timer</h1>
+        <div class="input-field">
+            <input type="text" name="" id="Hours" value="00">   <span class="timespan">Hours</span> 
+            <input type="text" name="" id="Minutes" value="00"> <span class="timespan">Minutes</span> 
+            <input type="text" name="" id="Seconds" value="00"> <span class="timespan">Seconds</span> 
+        </div>
+        <button onclick="startbtn()" id="start-btn" class="button m-5">Start Timer</button>
+        <button onclick="pauseButton()" id="pause-button" class="button m-5">Pause</button>
+        <button onclick="resButton()" id="res-button" class="button m-5">Reset</button>
+    </div>
+    <script src="script.js"></script>
+    <script src="bootstrap.bundle.js"></script>
+</body>
+</html>

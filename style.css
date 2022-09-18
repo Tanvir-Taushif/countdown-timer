@@ -1,0 +1,38 @@
+h1{
+    font-size: 50px;
+}
+
+body{
+    background-color: rgb(69, 255, 162);
+}
+
+.input-field input{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(69, 255, 162);
+    text-align: center;
+    font-size: 150px;
+    font-weight: 600;
+    margin-top: 55px;
+    border: none;
+    border-radius: 30px;
+}
+
+.timespan{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.button{
+    height: 50px;
+    width: 110px;
+    background-color: coral;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 12px;
+}
+
+.button:hover{
+    background-color: orange;
+    color: white;
+}
